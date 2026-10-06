@@ -156,10 +156,10 @@ header {
 .flex-box {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 24px;
   max-width: 80%;
   margin: 0 auto;
-  min-height: 70%;
 }
 
 .item {
@@ -168,6 +168,10 @@ header {
   border: 1px solid #e1e5eb;
   border-radius: 9px;
   border-top: 4px solid;
+  flex: 1;
+  min-height: 180px;
+  min-width: 330px;
+  /* box-sizing: border-box; */
 }
 
 .item-red {
